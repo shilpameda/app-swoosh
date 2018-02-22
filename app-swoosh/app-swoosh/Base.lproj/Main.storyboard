@@ -166,7 +166,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5176316353" colorSpace="custom" customColorSpace="sRGB"/>
                                 <viewLayoutGuide key="safeArea" id="cKh-pf-I7m"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="27"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -247,17 +247,29 @@
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="Er4-a9-1bm"/>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTX-8O-tOk" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                                <rect key="frame" x="16" y="745" width="343" height="49"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5176316353" colorSpace="custom" customColorSpace="sRGB"/>
+                                <viewLayoutGuide key="safeArea" id="LI7-lQ-Qst"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="27"/>
+                                <state key="normal" title="FINISH">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="q3W-lk-LKg" firstAttribute="leading" secondItem="c37-l5-2t1" secondAttribute="leading" constant="16" id="3gu-mn-tsf"/>
+                            <constraint firstAttribute="bottom" secondItem="DTX-8O-tOk" secondAttribute="bottom" constant="18" id="9c8-s7-Pt5"/>
                             <constraint firstItem="AxW-OD-YNu" firstAttribute="leading" secondItem="c37-l5-2t1" secondAttribute="leading" id="J27-Bo-5ku"/>
                             <constraint firstItem="AxW-OD-YNu" firstAttribute="top" secondItem="cdt-vL-v4b" secondAttribute="top" id="O1k-7v-KqY"/>
                             <constraint firstItem="zLx-8Z-7I9" firstAttribute="top" secondItem="c37-l5-2t1" secondAttribute="top" constant="20" id="UCa-47-tEc"/>
+                            <constraint firstItem="c37-l5-2t1" firstAttribute="trailing" secondItem="DTX-8O-tOk" secondAttribute="trailing" constant="16" id="ZxX-eD-aLD"/>
                             <constraint firstItem="AxW-OD-YNu" firstAttribute="trailing" secondItem="c37-l5-2t1" secondAttribute="trailing" id="iv0-90-tYY"/>
                             <constraint firstItem="zLx-8Z-7I9" firstAttribute="centerX" secondItem="cdt-vL-v4b" secondAttribute="centerX" id="pcm-pO-zbt"/>
                             <constraint firstItem="q3W-lk-LKg" firstAttribute="top" secondItem="zLx-8Z-7I9" secondAttribute="bottom" constant="50" id="tuv-50-IZn"/>
                             <constraint firstItem="c37-l5-2t1" firstAttribute="trailing" secondItem="q3W-lk-LKg" secondAttribute="trailing" constant="16" id="uvp-nJ-kIb"/>
+                            <constraint firstItem="DTX-8O-tOk" firstAttribute="leading" secondItem="c37-l5-2t1" secondAttribute="leading" constant="16" id="v4g-4B-o5b"/>
                             <constraint firstAttribute="bottom" secondItem="AxW-OD-YNu" secondAttribute="bottom" id="vEN-pR-SgA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c37-l5-2t1"/>
